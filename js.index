@@ -1,0 +1,285 @@
+let image = document.querySelector("#img1");
+let image1 = document.querySelector("#img2");
+let image2 = document.querySelector("#img3");
+let main1 = document.querySelector("#main");
+
+
+function change(){
+    image.src ="/images/red shoes/red1.jpg";
+     image1.src ="/images/red shoes/red2.png";
+      image2.src ="/images/red shoes/red3.jpg";
+      main1.src= "/images/red shoes/red1.jpg";
+      
+      function display(){
+        show.src ="/images/red shoes/red1.jpg";
+    }
+    
+    
+    document.querySelector("#img1").addEventListener("click",display);
+
+    function display2(){
+        show.src ="/images/red shoes/red2.png";
+    }
+    
+    document.querySelector("#img2").addEventListener("click",display2);
+
+    function display3(){
+        show.src ="/images/red shoes/red3.jpg";
+    }
+    
+    document.querySelector("#img3").addEventListener("click",display3);
+    
+
+
+
+      
+      
+}
+
+
+document.querySelector("#colour-red").addEventListener("click",change);
+
+
+
+
+
+
+function change1(){
+    
+    
+    image.src ="/images/blue shoes/blue1.jpg";
+    image1.src ="/images/blue shoes/blue2.png";
+      image2.src ="/images/blue shoes/blue3.jpg";
+      main1.src= "/images/blue shoes/blue1.jpg";
+      function display1(){
+        show.src ="/images/blue shoes/blue1.jpg";
+    }
+    
+    
+    document.querySelector("#img1").addEventListener("click",display1);
+
+    function display2(){
+        show.src ="/images/blue shoes/blue2.png";
+    }
+    
+    document.querySelector("#img2").addEventListener("click",display2);
+
+    function display3(){
+        show.src ="/images/blue shoes/blue3.jpg";
+    }
+    
+    document.querySelector("#img3").addEventListener("click",display3);
+
+
+
+
+    
+
+}
+
+
+
+
+document.querySelector("#colour-blue").addEventListener("click",change1);
+
+
+let show = document.querySelector("#main");
+
+function display1(){
+    show.src ="/images/blue shoes/blue1.jpg";
+}
+
+
+document.querySelector("#img1").addEventListener("click",display1);
+
+
+function display2(){
+    show.src ="/images/blue shoes/blue2.png";
+}
+
+document.querySelector("#img2").addEventListener("click",display2);
+
+function display3(){
+    show.src ="/images/blue shoes/blue3.jpg";
+}
+
+document.querySelector("#img3").addEventListener("click",display3);
+
+
+
+
+let count = 0;
+
+
+function up(){
+    
+    count++;
+    document.querySelector("#count").innerHTML = count;
+    console.log(count)
+   
+}
+
+document.querySelector("#add").addEventListener("click",up);
+
+
+function down(){
+    if(count>0){
+        document.querySelector("#count").innerHTML = count;
+        count--;
+        
+    }
+    else{
+        document.querySelector("#count").innerHTML=0;
+       
+    }
+    
+
+}
+
+document.querySelector("#sub").addEventListener("click",down);
+
+
+
+
+
+function pagination(){
+    document.querySelector("#a").style.backgroundColor ='rgb(0, 43, 92)';
+    document.querySelector("#b").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#c").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#d").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#e").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#f").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#g").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#h").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#i").style.backgroundColor ="rgb(240, 240, 240)";
+}
+
+document.querySelector("#a").addEventListener("click",pagination);
+
+function pagination1(){
+    document.querySelector("#b").style.backgroundColor ='rgb(0, 43, 92)';
+    document.querySelector("#a").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#c").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#d").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#e").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#f").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#g").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#h").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#i").style.backgroundColor ="rgb(240, 240, 240)";
+}
+
+document.querySelector("#b").addEventListener("click",pagination1);
+
+
+function pagination2(){
+    document.querySelector("#c").style.backgroundColor ='rgb(0, 43, 92)';
+    document.querySelector("#b").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#a").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#d").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#e").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#f").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#g").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#h").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#i").style.backgroundColor ="rgb(240, 240, 240)";
+}
+
+document.querySelector("#c").addEventListener("click",pagination2);
+
+function pagination3(){
+    document.querySelector("#d").style.backgroundColor ='rgb(0, 43, 92)';
+    document.querySelector("#b").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#c").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#a").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#e").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#f").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#g").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#h").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#i").style.backgroundColor ="rgb(240, 240, 240)";
+}
+
+document.querySelector("#d").addEventListener("click",pagination3);
+
+function pagination4(){
+    document.querySelector("#e").style.backgroundColor ='rgb(0, 43, 92)';
+    document.querySelector("#b").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#c").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#d").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#a").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#f").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#g").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#h").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#i").style.backgroundColor ="rgb(240, 240, 240)";
+}
+
+document.querySelector("#e").addEventListener("click",pagination4);
+
+
+function pagination5(){
+    document.querySelector("#f").style.backgroundColor ='rgb(0, 43, 92)';
+    document.querySelector("#b").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#c").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#d").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#e").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#a").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#g").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#h").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#i").style.backgroundColor ="rgb(240, 240, 240)";
+}
+
+document.querySelector("#f").addEventListener("click",pagination5);
+
+
+function pagination6(){
+    document.querySelector("#g").style.backgroundColor ='rgb(0, 43, 92)';
+    document.querySelector("#b").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#c").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#d").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#e").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#f").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#a").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#h").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#i").style.backgroundColor ="rgb(240, 240, 240)";
+}
+
+document.querySelector("#g").addEventListener("click",pagination6);
+
+
+function pagination7(){
+    document.querySelector("#h").style.backgroundColor ='rgb(0, 43, 92)';
+    document.querySelector("#b").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#c").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#d").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#e").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#f").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#g").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#a").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#i").style.backgroundColor ="rgb(240, 240, 240)";
+}
+
+document.querySelector("#h").addEventListener("click",pagination7);
+
+
+function pagination8(){
+    document.querySelector("#i").style.backgroundColor ='rgb(0, 43, 92)';
+    document.querySelector("#b").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#c").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#d").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#e").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#f").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#g").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#h").style.backgroundColor ="rgb(240, 240, 240)";
+    document.querySelector("#a").style.backgroundColor ="rgb(240, 240, 240)";
+}
+
+document.querySelector("#i").addEventListener("click",pagination8);
+
+
+let a = document.querySelector("#count").innerHTML;
+function b(){
+    localStorage.setItem("quantity", count);
+
+}
+
+document.querySelector("#btn").addEventListener("click",b);
+
+document.querySelector("#x").innerHTML = "h";
