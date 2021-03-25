@@ -283,15 +283,15 @@ function pagination8(){
 document.querySelector("#i").addEventListener("click",pagination8);
 
 
-let a = document.querySelector("#count").innerHTML;
-function b(){
-    localStorage.setItem("quantity", count);
+// let a = document.querySelector("#count").innerHTML;
+// function b(){
+//     localStorage.setItem("quantity", count);
 
-}
+// }
 
-document.querySelector("#btn").addEventListener("click",b);
+// document.querySelector("#pop1").addEventListener("click",b);
 
-document.querySelector("#x").innerHTML = "h";
+
 
 
 

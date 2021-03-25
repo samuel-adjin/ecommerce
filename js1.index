@@ -3,3 +3,34 @@ function d(){
 }
 document.getElementById("pop1").addEventListener("click",d);
 
+let a1 = document.querySelectorAll(".shoe-size");
+
+
+$(".shoe-size").click(function () {
+ let o = $(this).text();
+//  console.log(o);
+localStorage.setItem("size",o);
+ $("#size5").text(o);
+});
+
+
+$("#pop1").click(function (){
+    var res = $("#count").text();
+    localStorage.setItem("quantity",res);
+    $("#qty").text(res);
+})
+
+$(".picker").click(function (){
+    let color = $(this).text();
+    localStorage.setItem("color",color);
+    $("#color5").text(color);
+    console.log(color);
+
+})
+
+
+
+
+
+
+
