@@ -1,3 +1,12 @@
+
+
+
+
+
+
+
+
+
 let image = document.querySelector("#img1");
 let image1 = document.querySelector("#img2");
 let image2 = document.querySelector("#img3");
@@ -283,3 +292,6 @@ function b(){
 document.querySelector("#btn").addEventListener("click",b);
 
 document.querySelector("#x").innerHTML = "h";
+
+
+

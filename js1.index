@@ -1,0 +1,4 @@
+function d(){
+    document.getElementById("s").style.display="block";
+}
+document.getElementById("pop1").addEventListener("click",d);
